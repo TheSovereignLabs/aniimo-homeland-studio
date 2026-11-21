@@ -1,4 +1,4 @@
-# The Ricking Aniimo Homeland Studio
+# Sovereign Aniimo Homeland Studio
 
 > **[🇺🇸 English](#-english)** | **[🇧🇷 Português](#-português)**
 
@@ -8,13 +8,13 @@
 
 **A minimalist, zero-friction top-down spatial layout planner for *Aniimo* Homeland — lock in your functional backbone first so you can decorate freely in-game.**
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge)](https://hvanjos.github.io/the-ricking-aniimo-homeland-studio/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge)](https://thesovereignlabs.github.io/aniimo-homeland-studio/)
 [![Buy Me a Coffee](https://img.shields.io/badge/Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/thesovereignlabs)
 
 ### ✨ Why this exists
 Ever opened the in-game management screen in *Aniimo* and wished you could just drag, rotate, and build directly from that top-down perspective?
 
-While the community already has awesome yield and economy calculators, placing 150+ functional structures on foot without a proper blueprint often leads to awkward bottlenecks, messy power lines, and constant teardown loops. **The Ricking Aniimo Homeland Studio** gives you that missing bird's-eye spatial blockout grid.
+While the community already has awesome yield and economy calculators, placing 150+ functional structures on foot without a proper blueprint often leads to awkward bottlenecks, messy power lines, and constant teardown loops. **Sovereign Aniimo Homeland Studio** gives you that missing bird's-eye spatial blockout grid.
 
 ### 🎯 Core Philosophy: Lock in the Functional, Free Up the Decorative
 This tool intentionally focuses **only on functional structures, power routing, climate zones, and RV structure caps** (tested up to RV 18 / 153 structures) — intentionally leaving out decorative props. 
@@ -46,13 +46,13 @@ Built with a **zero-dependency, vanilla web stack** for instant load times and s
 
 **Um planejador espacial top-down minimalista e sem burocracia para a Homeland de *Aniimo* — trave a espinha dorsal funcional primeiro para ter total liberdade criativa na decoração dentro do jogo.**
 
-[![Acessar App](https://img.shields.io/badge/Acessar_App-GitHub_Pages-2ea44f?style=for-the-badge)](https://hvanjos.github.io/the-ricking-aniimo-homeland-studio/)
+[![Acessar App](https://img.shields.io/badge/Acessar_App-GitHub_Pages-2ea44f?style=for-the-badge)](https://thesovereignlabs.github.io/aniimo-homeland-studio/)
 [![Buy Me a Coffee](https://img.shields.io/badge/Apoiar-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/thesovereignlabs)
 
 ### ✨ Por que este projeto existe
 Já abriu a tela de gerenciamento dentro de *Aniimo* e pensou *"por que eu não posso simplesmente arrastar, girar e construir direto por essa visão de cima"*?
 
-Enquanto a comunidade já conta com ótimas calculadoras de rendimento e economia, posicionar mais de 150 estruturas funcionais a pé sem uma planta baixa costuma gerar gargalos, linhas de energia bagunçadas e demolições constantes. O **The Ricking Aniimo Homeland Studio** entrega exatamente essa grade espacial vista de cima para prototipar sua base sem fricção.
+Enquanto a comunidade já conta com ótimas calculadoras de rendimento e economia, posicionar mais de 150 estruturas funcionais a pé sem uma planta baixa costuma gerar gargalos, linhas de energia bagunçadas e demolições constantes. O **Sovereign Aniimo Homeland Studio** entrega exatamente essa grade espacial vista de cima para prototipar sua base sem fricção.
 
 ### 🎯 Filosofia Central: Trave o Funcional, Libere o Decorativo
 Esta ferramenta foca intencionalmente **apenas em estruturas funcionais, roteamento de energia, zonas climáticas e limites de construção por nível de RV** (testado até o RV 18 / 153 estruturas) — deixando itens decorativos de fora de propósito.
