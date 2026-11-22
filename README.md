@@ -17,23 +17,25 @@ Ever opened the in-game management screen in *Aniimo* and wished you could just 
 While the community already has awesome yield and economy calculators, placing 150+ functional structures on foot without a proper blueprint often leads to awkward bottlenecks, messy power lines, and constant teardown loops. **Sovereign Aniimo Homeland Studio** gives you that missing bird's-eye spatial blockout grid.
 
 ### 🎯 Core Philosophy: Lock in the Functional, Free Up the Decorative
-This tool intentionally focuses **only on functional structures, power routing, climate zones, and RV structure caps** (tested up to RV 18 / 153 structures) — intentionally leaving out decorative props. 
+This tool intentionally focuses **only on functional structures, power routing, climate zones, and RV structure caps** (tested up to RV 18, with a full example plan built in) — intentionally leaving out decorative props. 
 
 By solving the rigid logistics on a clean geometric grid first, you can step back into *Aniimo* with total creative freedom to place decorations, paths, and props around your working hubs without ever having to tear down your layout later.
 
 ### 🚀 Key Features
 * **Top-Down Blockout Grid:** Clean geometric interface to test building footprints, spacing, and symmetry before committing in-game.
-* **Live URL State & One-Click Share Link:** Your layout automatically encodes into the URL as you build, with a dedicated **Share Link** button to send your exact blueprint to anyone — zero backend or file hosting required.
+* **One-Click Share Link:** the **Share Link** button packs your exact blueprint into a short link you can send to anyone (on mobile, the page address keeps it up to date as you build) — zero backend or file hosting required.
 * **Climate & Power Line Checks:** Verify coverage overlaps and energy routing early so nothing breaks mid-build.
 * **RV Quota & Backlog Tracking:** Keep an eye on structure caps and remaining quotas without cluttering the canvas.
-* **100% Client-Side & Private:** No accounts, no servers, no tracking. Layouts also persist locally in your browser (`localStorage`) with JSON export/import support for offline backups.
+* **100% Client-Side & Private:** No accounts and no backend: your layout never leaves your device unless you share the link yourself. Nothing is stored in your browser either; keep your work as a share link or a JSON file (export/import).
+* **Privacy-friendly visit counts:** the main site uses [GoatCounter](https://www.goatcounter.com/), a cookieless, open-source counter that only records anonymous totals (page visits and actions such as "share link copied"). No cookies, no personal data, no cross-site tracking, and the app works normally if you block it.
 * **Bilingual Interface:** Instant toggle between English (`EN`) and Portuguese (`PT`).
-* *(Note: Built specifically for **desktop browsers** with mouse & keyboard pan/zoom. Mobile touch support is planned for a future update.)*
+* **Desktop and Mobile:** mouse & keyboard on desktop; a dedicated touch editor on phones and tablets (pinch zoom, long-press to move, left-handed mode). It can be installed on your home screen as a web app.
 
 ### 🛠️ Tech Stack & Architecture
-Built with a **zero-dependency, vanilla web stack** for instant load times and static hosting:
+Built with a **vanilla web stack, no framework and no build step required to run**, for instant load times and static hosting:
 * **Frontend:** Semantic HTML5, Modern CSS3, Vanilla JavaScript (ES6+)
-* **Persistence & Sharing:** URL state serialization, browser `localStorage`, and JSON export/import
+* **External resources:** Tailwind CSS (loaded from its CDN) and the GoatCounter script (optional, cookieless)
+* **Sharing:** the whole layout is compressed into the link itself, plus JSON export/import
 * **Hosting:** GitHub Pages
 
 ### 💬 Feedback & Support
@@ -55,23 +57,25 @@ Já abriu a tela de gerenciamento dentro de *Aniimo* e pensou *"por que eu não 
 Enquanto a comunidade já conta com ótimas calculadoras de rendimento e economia, posicionar mais de 150 estruturas funcionais a pé sem uma planta baixa costuma gerar gargalos, linhas de energia bagunçadas e demolições constantes. O **Sovereign Aniimo Homeland Studio** entrega exatamente essa grade espacial vista de cima para prototipar sua base sem fricção.
 
 ### 🎯 Filosofia Central: Trave o Funcional, Libere o Decorativo
-Esta ferramenta foca intencionalmente **apenas em estruturas funcionais, roteamento de energia, zonas climáticas e limites de construção por nível de RV** (testado até o RV 18 / 153 estruturas) — deixando itens decorativos de fora de propósito.
+Esta ferramenta foca intencionalmente **apenas em estruturas funcionais, roteamento de energia, zonas climáticas e limites de construção por nível de RV** (testado até o RV 18, com um plano de exemplo completo embutido) — deixando itens decorativos de fora de propósito.
 
 Ao resolver toda a logística rígida em uma grade geométrica limpa antes de construir, você volta para dentro do *Aniimo* com total liberdade para espalhar decorações, caminhos e detalhes ao redor dos seus blocos produtivos sem precisar demolir nada depois.
 
 ### 🚀 Principais Recursos
 * **Grade de Bloqueio Top-Down:** Interface geométrica limpa para testar proporções, espaçamento e simetria antes de construir no jogo.
-* **Estado na URL e Link Compartilhável:** Seu layout é salvo automaticamente no próprio endereço da página conforme você constrói, com um botão de **Gerar Link** para compartilhar a planta exata com qualquer pessoa — sem servidores ou upload de arquivos.
+* **Link Compartilhável:** o botão **Gerar Link** compacta a planta exata num link curto para mandar a qualquer pessoa (no celular, o próprio endereço da página acompanha o que você constrói) — sem servidores ou upload de arquivos.
 * **Checagem de Clima e Energia:** Verifique áreas de cobertura e rotas de energia antecipadamente.
 * **Controle de Limites e Backlog:** Acompanhe o teto de estruturas do seu RV e cotas restantes sem poluir a tela.
-* **100% Client-Side e Privado:** Sem login, sem servidores e sem rastreamento. Seus layouts também ficam salvos localmente no navegador (`localStorage`) com suporte para exportar/importar em JSON.
+* **100% Client-Side e Privado:** Sem login e sem servidor: seu layout só sai do seu aparelho se você mesmo compartilhar o link. Nada fica salvo no navegador; guarde seu trabalho como link compartilhável ou arquivo JSON (exportar/importar).
+* **Contagem de visitas sem rastreamento pessoal:** o site principal usa o [GoatCounter](https://www.goatcounter.com/), um contador de código aberto e sem cookies que registra apenas totais anônimos (visitas e ações como "link copiado"). Sem cookies, sem dados pessoais e sem rastreamento entre sites; se você bloquear, o app funciona normalmente.
 * **Interface Bilíngue:** Alternância instantânea entre Inglês (`EN`) e Português (`PT`).
-* *(Nota: Desenvolvido especificamente para **navegadores desktop** com navegação por mouse e teclado. O suporte para telas touch/mobile está planejado para atualizações futuras.)*
+* **Desktop e Celular:** mouse e teclado no computador; editor de toque dedicado em celulares e tablets (pinça para zoom, toque longo para mover, modo canhoto). Pode ser instalado na tela inicial como web app.
 
 ### 🛠️ Tecnologias e Arquitetura
-Desenvolvido com uma **stack web pura e sem dependências externas** para carregamento instantâneo e hospedagem estática:
+Desenvolvido com uma **stack web pura, sem framework e sem etapa de build para rodar**, para carregamento instantâneo e hospedagem estática:
 * **Frontend:** HTML5 Semântico, CSS3 Moderno, JavaScript Vanilla (ES6+)
-* **Persistência e Compartilhamento:** Serialização de estado na URL, `localStorage` do navegador e exportação/importação JSON
+* **Recursos externos:** Tailwind CSS (carregado via CDN) e o script do GoatCounter (opcional, sem cookies)
+* **Compartilhamento:** o layout inteiro vai compactado dentro do próprio link, além de exportação/importação JSON
 * **Hospedagem:** GitHub Pages
 
 ### 💬 Feedback e Apoio
